@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr><td colspan="2" align="center">inscripciones</td></tr>
+        <tr>
+            <td>nombre</td><td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>sexo</td>
+            <td><select name="genero">
+                    <option value="femenino">femenino</option>
+                    <option value="masculino">masculino</option>
+                    <option value="otro">otro</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>edad</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr><td>estado civil</td><td><input type="radio" name="grupo1" value="casado">casado
+                                     <input type="radio" name="grupo1" value="soltero">soltero
+                                     <input type="radio" name="grupo1" value="union libre">union libre
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table border="1">
+                <tr><td>gustos musicales</td></tr>
+                    <tr>
+                        <td>vallenato</td>
+                        <td>rock</td>
+                        <td>pop</td>
+                        <td>popular</td>
+                    </tr>
+                        <tr>
+                        <td><input type="checkbox" name="vallenato" value="option1"></td>
+                        <td><input type="checkbox" name="rock" value="option1"></td>
+                        <td><input type="checkbox" name="pop" value="option1"></td>
+                        <td><input type="checkbox" name="popular" value="option1"></td>
+                    </tr>                
+                </table>
+            </td>
+        </tr>
+            <tr>
+                <td colspan="2" align="center">
+                <input type="button" name="guardar" value="guardar">
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
