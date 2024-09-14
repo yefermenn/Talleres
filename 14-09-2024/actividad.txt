@@ -1,0 +1,2 @@
+hacer la pagina escogiendo una empresa x 
+crear clases personalizadas en el programa
